@@ -1,0 +1,9 @@
+
+/* HERE THIS CLASS WILL BE GIVEN TO THAT NAVLINK COMPONENT WHICH IS CURRENTLY ACTIVE IN URL OF BROWSER */
+
+.active {
+  text-decoration: none;
+  font-weight: bold;
+  color: green;
+  text-transform: uppercase;
+}

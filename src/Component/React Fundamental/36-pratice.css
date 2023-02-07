@@ -1,0 +1,32 @@
+.c1{
+
+    border: 1px solid red;
+}
+
+@keyframes k1 {
+    
+    from{
+       background-color: initial;
+       transform: translate(initial,initial);
+       width: 500px;
+    }
+    to{
+        background-color: gold;
+        transform: translate(30px,10px);
+        width: 100%;
+    }
+}
+
+@keyframes k2 {
+    
+    from{
+       background-color: gold;
+       transform: translate(30px , 10px);
+       width: 100%;
+    }
+    to{
+        background-color: initial;
+        transform: translate(initial , initial);
+        width: 500px;
+    }
+}
